@@ -35,6 +35,22 @@ rightButton.addEventListener('click', () => {
   slideImages.scrollLeft += 100;
 });
 
+//like button
+var likes = document.querySelectorAll(".like")
+likes.forEach(function(like){
+  like.addEventListener("click", function(){
+    like.classList.toggle("fa-solid")
+  
+    if(like.classList.contains("fa-solid")){
+      like.style.color = "red"
+    }
+    else{
+      like.style.color = "black"
+    }
+  })
+})
+
+
 
 
 
