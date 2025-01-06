@@ -36,9 +36,6 @@ rightButton.addEventListener('click', () => {
 });
 
 
-//checkbox image
-
-
 
 
 

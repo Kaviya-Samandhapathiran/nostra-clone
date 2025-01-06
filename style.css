@@ -458,10 +458,6 @@ hr.vertical {
     padding-left: 30px;
 }
 
-.prod{
-    display: flex;
-    flex-wrap: wrap;
-}
 .sec1 {
     display: flex;
     gap: 20px;
