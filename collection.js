@@ -20,7 +20,7 @@ checkboxes.forEach(checkbox => {
       const matchesAll = checkedValues.every(value => tags.includes(value));
 
       prod.style.display = matchesAll ? 'block' : 'none';
-      prod.style.width = matchesAll ? '25%' : 'none'
+      prod.style.width = matchesAll ? '30%' : 'none'
     });
   });
 });
