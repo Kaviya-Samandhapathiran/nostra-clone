@@ -22,6 +22,20 @@ mostwant.addEventListener("click", function(){
     wantpage.scrollIntoView({behavior: 'smooth'})
 })
 
+//sliding images
+var leftButton = document.querySelector('.left-button');
+var slideImages = document.querySelector('.slide_images');
+var rightButton = document.querySelector('.right-button')
+
+leftButton.addEventListener('click', () => {
+  slideImages.scrollLeft -= 100; 
+});
+
+rightButton.addEventListener('click', () => {
+    slideImages.scrollLeft += 100; 
+  });
+
+
 //checkbox image
 const checkboxes = document.querySelectorAll('input[type="checkbox"]');
 const images = document.querySelectorAll('.prod');

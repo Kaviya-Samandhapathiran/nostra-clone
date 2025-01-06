@@ -76,6 +76,7 @@
 .left-button,
 .right-button {
     font-size: 60px;
+    cursor: pointer;
 }
 
 .slide-content {
