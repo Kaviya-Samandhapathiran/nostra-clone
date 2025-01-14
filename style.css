@@ -502,7 +502,7 @@ hr.vertical {
 }
 
 /*Media Queries*/
-@media screen and (max-width:425px) {
+@media screen and (max-width:600px) {
 
     .signup {
         padding: 0.5px;
