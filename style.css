@@ -64,7 +64,7 @@
 }
 
 .navclose {
-    padding-left: 30vh;
+    padding-left: 20vh;
     cursor: pointer;
 }
 
@@ -75,6 +75,7 @@
 .menuNav a {
     color: white;
     padding-left: 10%;
+    text-decoration: none;
 }
 
 .slide_images {
