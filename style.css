@@ -47,7 +47,7 @@
     cursor: pointer;
 }
 
-#menuNavbar {
+.menuNavbar {
     top: 0;
     left: 0;
     position: fixed;
@@ -63,16 +63,16 @@
     display: none;
 }
 
-#navclose {
+.navclose {
     padding-left: 30vh;
     cursor: pointer;
 }
 
-.menu {
+.menuNav {
     padding-bottom: 5vh;
 }
 
-.menu a {
+.menuNav a {
     color: white;
     padding-left: 10%;
 }
@@ -902,13 +902,63 @@ hr.vertical {
                 transform: translateX(-100%);
             }
         }
+
+        .offer-content h1 {
+            font-size: 25px;
+        }
+    
+        .offer-content h3 {
+            font-size: 20px;
+        }
+    
+        .offer-content button {
+            padding: 8px;
+            font-size: 15px;
+        }
+    
+        .join-letter h1 {
+            font-size: 25px;
+        }
+    
+        .join-letter p {
+            font-size: 15px;
+        }
+    
+        .join-letter input {
+            margin-left: 25px;
+        }
+    
+        .join-letter button {
+            font-size: 20px;
+        }
+    
+        .end h1 {
+            font-size: 25px;
+        }
+    
+        .end p {
+            font-size: 20px;
+            padding-right: 20px;
+        }
+
+        .brand-content p{
+            font-size: 12px;
+        }
+
+        .brand-content img{
+            width: 40%;
+        }
     }
 
     @media screen and (max-width:400px) {
         .slide-inside {
-            top: 12vh;
+            top: 13vh;
             left: 8vh;
             gap: 8px;
+        }
+
+        .slide_images img{
+            width: 70%;
         }
 
         .slide-content h1 {
@@ -948,6 +998,57 @@ hr.vertical {
             100% {
                 transform: translateX(-100%);
             }
+        }
+
+        .offer-content h1 {
+            font-size: 25px;
+        }
+    
+        .offer-content h3 {
+            font-size: 20px;
+        }
+    
+        .offer-content button {
+            padding: 8px;
+            font-size: 15px;
+        }
+    
+        .join-letter h1 {
+            font-size: 25px;
+        }
+    
+        .join-letter p {
+            font-size: 15px;
+        }
+    
+        .join-letter input {
+            margin-left: 25px;
+        }
+    
+        .join-letter button {
+            font-size: 20px;
+        }
+    
+        .end h1 {
+            font-size: 25px;
+        }
+    
+        .end p {
+            font-size: 20px;
+            padding-right: 20px;
+        }
+
+        .brand-content p{
+            font-size: 12px;
+        }
+
+        .brand-content img{
+            width: 40%;
+        }
+
+        .contact {
+            margin-left: 20px;
+            margin-right: 20px;
         }
 
     }

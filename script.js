@@ -52,8 +52,8 @@ likes.forEach(function(like){
 
 //Menu navbar
 var menu = document.getElementById("menu")
-var navbar = document.getElementById("menuNavbar")
-var closeBar = document.getElementById("navclose")
+var navbar = document.querySelector(".menuNavbar")
+var closeBar = document.querySelector(".navclose")
 
 menu.addEventListener("click", function(){
   navbar.style.display = "block"
