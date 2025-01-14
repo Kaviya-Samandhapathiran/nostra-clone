@@ -964,6 +964,76 @@ hr.vertical {
         .brand-content img {
             width: 40%;
         }
+
+        .contact {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+
+        .varieties {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .filter {
+            font-size: 12px;
+        }
+
+        .filter input[type="checkbox"] {
+            margin-top: -10px;
+            margin-bottom: 15px;
+        }
+
+        .filter h3 {
+            margin-top: 10px;
+            font-size: 20px;
+        }
+
+        hr.vertical {
+            border: 0;
+            border-left: 2px solid black;
+            height: 110vw;
+            margin-left: 5px;
+        }
+
+        .search {
+            width: 52vh;
+            border-radius: 5px;
+            padding: 3px;
+            margin-left: 10px;
+            margin-top: 0px;
+            display: flex;
+            align-items: center;
+        }
+
+        .search input {
+            padding-left: 5px;
+        }
+
+        .search i {
+            font-size: 10px;
+        }
+
+        .prods {
+            margin-top: 10px;
+            font-size: 7px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .sec1 {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+
+        .prod h1{
+            font-size: 12px;
+        }
+        .prod p {
+            font-size: 8px;
+        }
     }
 
     @media screen and (max-width:400px) {
