@@ -34,6 +34,12 @@
     z-index: 3;
 }
 
+.navbar a {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
 .navbar_section a {
     color: black;
     text-decoration: none;
@@ -79,7 +85,7 @@
     cursor: pointer;
 }
 
-.menuNav a:hover{
+.menuNav a:hover {
     text-decoration: underline;
 }
 
@@ -916,46 +922,46 @@ hr.vertical {
         .offer-content h1 {
             font-size: 25px;
         }
-    
+
         .offer-content h3 {
             font-size: 20px;
         }
-    
+
         .offer-content button {
             padding: 8px;
             font-size: 15px;
         }
-    
+
         .join-letter h1 {
             font-size: 25px;
         }
-    
+
         .join-letter p {
             font-size: 15px;
         }
-    
+
         .join-letter input {
             margin-left: 25px;
         }
-    
+
         .join-letter button {
             font-size: 20px;
         }
-    
+
         .end h1 {
             font-size: 25px;
         }
-    
+
         .end p {
             font-size: 20px;
             padding-right: 20px;
         }
 
-        .brand-content p{
+        .brand-content p {
             font-size: 12px;
         }
 
-        .brand-content img{
+        .brand-content img {
             width: 40%;
         }
     }
@@ -967,7 +973,7 @@ hr.vertical {
             gap: 8px;
         }
 
-        .slide_images img{
+        .slide_images img {
             width: 70%;
         }
 
@@ -1013,46 +1019,46 @@ hr.vertical {
         .offer-content h1 {
             font-size: 25px;
         }
-    
+
         .offer-content h3 {
             font-size: 20px;
         }
-    
+
         .offer-content button {
             padding: 8px;
             font-size: 15px;
         }
-    
+
         .join-letter h1 {
             font-size: 25px;
         }
-    
+
         .join-letter p {
             font-size: 15px;
         }
-    
+
         .join-letter input {
             margin-left: 25px;
         }
-    
+
         .join-letter button {
             font-size: 20px;
         }
-    
+
         .end h1 {
             font-size: 25px;
         }
-    
+
         .end p {
             font-size: 20px;
             padding-right: 20px;
         }
 
-        .brand-content p{
+        .brand-content p {
             font-size: 12px;
         }
 
-        .brand-content img{
+        .brand-content img {
             width: 40%;
         }
 
@@ -1066,26 +1072,28 @@ hr.vertical {
             padding-left: 5px;
             padding-right: 5px;
         }
-        
+
         .filter {
             font-size: 10px;
         }
-        
-        .filter input[type="checkbox"]{
+
+        .filter input[type="checkbox"] {
             margin-top: -10px;
             margin-bottom: 15px;
         }
+
         .filter h3 {
             margin-top: 10px;
             font-size: 15px;
         }
+
         hr.vertical {
             border: 0;
             border-left: 2px solid black;
             height: 110vw;
             margin-left: 5px;
         }
-        
+
         .search {
             width: 33vh;
             border-radius: 5px;
@@ -1095,29 +1103,29 @@ hr.vertical {
             display: flex;
             align-items: center;
         }
-        
+
         .search input {
             padding-left: 5px;
         }
 
-        .search i{
+        .search i {
             font-size: 10px;
         }
-        
+
         .prods {
             margin-top: 10px;
             font-size: 4px;
             padding-left: 10px;
             padding-right: 10px;
         }
-        
+
         .sec1 {
             display: flex;
             gap: 15px;
             margin-bottom: 10px;
         }
 
-        .prod p{
+        .prod p {
             font-size: 8px;
         }
     }
