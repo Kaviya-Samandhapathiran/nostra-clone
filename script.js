@@ -7,7 +7,7 @@ closemark.addEventListener("click", function () {
 })
 
 //New arrival
-var newarrival = document.getElementById("newarrival")
+var newarrival = document.querySelector(".newarrival")
 var arrival = document.querySelector(".new-arrivals")
 
 newarrival.addEventListener("click", function () {
@@ -15,7 +15,7 @@ newarrival.addEventListener("click", function () {
 })
 
 //most-want
-var mostwant = document.getElementById("mostwant")
+var mostwant = document.querySelector(".mostwant")
 var wantpage = document.querySelector(".most-wanted")
 
 mostwant.addEventListener("click", function () {

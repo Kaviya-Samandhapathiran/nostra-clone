@@ -47,7 +47,7 @@
     cursor: pointer;
 }
 
-#menuNavbar{
+#menuNavbar {
     top: 0;
     left: 0;
     position: fixed;
@@ -63,19 +63,20 @@
     display: none;
 }
 
-#navclose{
+#navclose {
     padding-left: 30vh;
     cursor: pointer;
 }
 
-.menu{
+.menu {
     padding-bottom: 5vh;
 }
 
-.menu a{
+.menu a {
     color: white;
     padding-left: 10%;
 }
+
 .slide_images {
     display: flex;
     margin-left: 20px;
@@ -502,7 +503,7 @@ hr.vertical {
 }
 
 /*Media Queries*/
-@media screen and (max-width:1000px){
+@media screen and (max-width:1000px) {
     .signup {
         padding: 0.5px;
         gap: 20px;
@@ -598,72 +599,85 @@ hr.vertical {
     }
 
     .arrivals-image img {
-        width: 30%;
+        width: 80%;
+        filter: brightness(100%);
+        animation: scroll-right 5s linear infinite;
+    }
+
+    @keyframes scroll-right {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-100%);
+        }
     }
 
     .shop-now {
         display: none;
     }
 
-    .img img{
+    .img img {
         width: 35vh;
     }
 
-    .img i{
+    .img i {
         top: 30vh;
         left: 26vh;
     }
 
-    .limited-offer{
+    .limited-offer {
         display: block;
     }
 
-    .offer-img img{
+    .offer-img img {
         width: 100%;
     }
 
-    .offer-content h1{
+    .offer-content h1 {
         font-size: 30px;
     }
 
-    .offer-content h3{
+    .offer-content h3 {
         font-size: 25px;
     }
 
-    .offer-content button{
+    .offer-content button {
         padding: 10px;
         font-size: 20px;
     }
 
-    .join-letter h1{
+    .join-letter h1 {
         font-size: 30px;
     }
 
-    .join-letter p{
+    .join-letter p {
         font-size: 20px;
     }
 
-    .join-letter input{
+    .join-letter input {
         margin-left: 25px;
     }
 
-    .join-letter button{
+    .join-letter button {
         font-size: 25px;
     }
 
-    .end h1{
+    .end h1 {
         font-size: 30px;
     }
 
-    .end p{
+    .end p {
         font-size: 2p5x;
         padding-right: 20px;
     }
 
-    .logo i{
+    .logo i {
         padding: 5px;
     }
 }
+
 @media screen and (max-width:800px) {
 
     .signup {
@@ -760,74 +774,86 @@ hr.vertical {
         padding-left: 20px;
     }
 
-    .arrivals-image img {
-        width: 30%;
-    }
-
     .shop-now {
         display: none;
     }
 
-    .img img{
+    .img img {
         width: 35vh;
     }
 
-    .img i{
+    .img i {
         top: 30vh;
         left: 26vh;
     }
 
-    .limited-offer{
+    .limited-offer {
         display: block;
     }
 
-    .offer-img img{
+    .offer-img img {
         width: 100%;
     }
 
-    .offer-content h1{
+    .offer-content h1 {
         font-size: 30px;
     }
 
-    .offer-content h3{
+    .offer-content h3 {
         font-size: 25px;
     }
 
-    .offer-content button{
+    .offer-content button {
         padding: 10px;
         font-size: 20px;
     }
 
-    .join-letter h1{
+    .join-letter h1 {
         font-size: 30px;
     }
 
-    .join-letter p{
+    .join-letter p {
         font-size: 20px;
     }
 
-    .join-letter input{
+    .join-letter input {
         margin-left: 25px;
     }
 
-    .join-letter button{
+    .join-letter button {
         font-size: 25px;
     }
 
-    .end h1{
+    .end h1 {
         font-size: 30px;
     }
 
-    .end p{
+    .end p {
         font-size: 2p5x;
         padding-right: 20px;
     }
 
-    .logo i{
+    .logo i {
         padding: 5px;
     }
 
-    @media screen and (max-width:600px){
+    .arrivals-image img {
+        width: 80%;
+        filter: brightness(100%);
+        animation: scroll-right 5s linear infinite;
+    }
+
+    @keyframes scroll-right {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    @media screen and (max-width:600px) {
         .slide-inside {
             top: 20vh;
             left: 13vh;
@@ -837,21 +863,21 @@ hr.vertical {
         .slide-content h1 {
             font-size: 20px;
         }
-    
+
         .slide-content h4 {
             font-size: 20px;
         }
-    
+
         .slide-content button {
             padding: 3px;
             font-size: 8px;
         }
-    
+
         .slide-content i {
             font-size: 12px;
         }
 
-        .img i{
+        .img i {
             font-size: 30px;
             top: 30vh;
             left: 28vh;
@@ -860,36 +886,69 @@ hr.vertical {
         .contents h1 {
             font-size: 15px;
         }
+
+        .arrivals-image img {
+            width: 80%;
+            filter: brightness(100%);
+            animation: scroll-right 5s linear infinite;
+        }
+
+        @keyframes scroll-right {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
     }
 
-    @media screen and (max-width:400px){
+    @media screen and (max-width:400px) {
         .slide-inside {
-            top: 18vh;
-            left: 9vh;
+            top: 12vh;
+            left: 8vh;
             gap: 8px;
         }
 
         .slide-content h1 {
             font-size: 15px;
         }
-    
+
         .slide-content h4 {
             font-size: 10px;
         }
-    
+
         .slide-content button {
             padding: 3px;
             font-size: 5px;
         }
-    
+
         .slide-content i {
             font-size: 8px;
         }
 
-        .img i{
+        .img i {
             font-size: 30px;
             top: 30vh;
-            left: 26vh;
+            left: 27vh;
         }
+
+        .arrivals-image img {
+            width: 80%;
+            filter: brightness(100%);
+            animation: scroll-right 5s linear infinite;
+        }
+
+        @keyframes scroll-right {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
     }
 }
