@@ -7,7 +7,7 @@ closemark.addEventListener("click", function () {
 })
 
 //New arrival
-var newarrival = document.querySelector(".newarrival")
+var newarrival = document.getElementById("newarrival")
 var arrival = document.querySelector(".new-arrivals")
 
 newarrival.addEventListener("click", function () {
@@ -15,13 +15,28 @@ newarrival.addEventListener("click", function () {
 })
 
 //most-want
-var mostwant = document.querySelector(".mostwant")
+var mostwant = document.getElementById("mostwant")
 var wantpage = document.querySelector(".most-wanted")
 
 mostwant.addEventListener("click", function () {
   wantpage.scrollIntoView({ behavior: 'smooth' })
 })
 
+//New arrival
+var newarri = document.getElementById("newArri")
+var arrival = document.querySelector(".new-arrivals")
+
+newarri.addEventListener("click", function () {
+  arrival.scrollIntoView({ behavior: 'smooth' })
+})
+
+//most-want
+var newMost = document.getElementById("newMost")
+var wantpage = document.querySelector(".most-wanted")
+
+newMost.addEventListener("click", function () {
+  wantpage.scrollIntoView({ behavior: 'smooth' })
+})
 //sliding images
 var leftButton = document.querySelector('.left-button');
 var slideImages = document.querySelector('.slide_images');
