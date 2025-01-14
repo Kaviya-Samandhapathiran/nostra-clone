@@ -50,6 +50,19 @@ likes.forEach(function(like){
   })
 })
 
+//Menu navbar
+var menu = document.getElementById("menu")
+var navbar = document.getElementById("menuNavbar")
+var closeBar = document.getElementById("navclose")
+
+menu.addEventListener("click", function(){
+  navbar.style.display = "block"
+})
+
+closeBar.addEventListener("click",function(){
+  navbar.style.display ="none"
+})
+
 
 
 
