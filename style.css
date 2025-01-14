@@ -64,12 +64,12 @@
 }
 
 #navclose{
-    padding-left: 22vh;
+    padding-left: 30vh;
     cursor: pointer;
 }
 
 .menu{
-    padding-bottom: 3vh;
+    padding-bottom: 5vh;
 }
 
 .menu a{
@@ -502,7 +502,169 @@ hr.vertical {
 }
 
 /*Media Queries*/
-@media screen and (max-width:600px) {
+@media screen and (max-width:1000px){
+    .signup {
+        padding: 0.5px;
+        gap: 20px;
+        font-size: 10px;
+    }
+
+    .navbar h2,
+    .brands h2 {
+        font-size: 20px;
+    }
+
+    #menu {
+        display: flex;
+        padding-left: 20vh;
+    }
+
+    .navbar_section {
+        display: none;
+    }
+
+    .slide-inside {
+        top: 30vh;
+        left: 40vh;
+        gap: 25px;
+    }
+
+    .slide-content h1 {
+        font-size: 30px;
+    }
+
+    .slide-content h4 {
+        font-size: 20px;
+    }
+
+    .slide-content button {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .slide-content i {
+        font-size: 15px;
+    }
+
+    .slide_images img {
+        width: 60%;
+    }
+
+    .left-button i,
+    .right-button i {
+        font-size: 35px;
+    }
+
+    .brand-content img {
+        width: 25%;
+    }
+
+    .brand-content p {
+        font-size: 5px;
+    }
+
+    .exp-content {
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    .exp-content h1 {
+        font-size: 25px;
+    }
+
+    .exp-content P {
+        font-size: 20px;
+    }
+
+    .exp-list {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+
+    .contents h1 {
+        font-size: 25px;
+    }
+
+    .arrivals-image h2 {
+        font-size: 20px;
+    }
+
+    .arrivals-image {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scrollbar-width: none;
+        padding-left: 20px;
+    }
+
+    .arrivals-image img {
+        width: 30%;
+    }
+
+    .shop-now {
+        display: none;
+    }
+
+    .img img{
+        width: 35vh;
+    }
+
+    .img i{
+        top: 30vh;
+        left: 26vh;
+    }
+
+    .limited-offer{
+        display: block;
+    }
+
+    .offer-img img{
+        width: 100%;
+    }
+
+    .offer-content h1{
+        font-size: 30px;
+    }
+
+    .offer-content h3{
+        font-size: 25px;
+    }
+
+    .offer-content button{
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .join-letter h1{
+        font-size: 30px;
+    }
+
+    .join-letter p{
+        font-size: 20px;
+    }
+
+    .join-letter input{
+        margin-left: 25px;
+    }
+
+    .join-letter button{
+        font-size: 25px;
+    }
+
+    .end h1{
+        font-size: 30px;
+    }
+
+    .end p{
+        font-size: 2p5x;
+        padding-right: 20px;
+    }
+
+    .logo i{
+        padding: 5px;
+    }
+}
+@media screen and (max-width:800px) {
 
     .signup {
         padding: 0.5px;
@@ -525,30 +687,30 @@ hr.vertical {
     }
 
     .slide-inside {
-        top: 23vh;
-        left: 8vh;
+        top: 30vh;
+        left: 27vh;
         gap: 10px;
     }
 
     .slide-content h1 {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .slide-content h4 {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .slide-content button {
-        padding: 5px;
-        font-size: 10px;
+        padding: 10px;
+        font-size: 15px;
     }
 
     .slide-content i {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .slide_images img {
-        width: 80%;
+        width: 60%;
     }
 
     .left-button i,
@@ -584,7 +746,7 @@ hr.vertical {
     }
 
     .contents h1 {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .arrivals-image h2 {
@@ -599,7 +761,7 @@ hr.vertical {
     }
 
     .arrivals-image img {
-        width: 50%;
+        width: 30%;
     }
 
     .shop-now {
@@ -607,12 +769,12 @@ hr.vertical {
     }
 
     .img img{
-        width: 40vh;
+        width: 35vh;
     }
 
     .img i{
-        top: 200px;
-        left: 190px;
+        top: 30vh;
+        left: 26vh;
     }
 
     .limited-offer{
@@ -624,24 +786,24 @@ hr.vertical {
     }
 
     .offer-content h1{
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .offer-content h3{
-        font-size: 15px;
+        font-size: 25px;
     }
 
     .offer-content button{
         padding: 10px;
-        font-size: 12px;
-    }
-
-    .join-letter h1{
         font-size: 20px;
     }
 
+    .join-letter h1{
+        font-size: 30px;
+    }
+
     .join-letter p{
-        font-size: 12px;
+        font-size: 20px;
     }
 
     .join-letter input{
@@ -649,15 +811,15 @@ hr.vertical {
     }
 
     .join-letter button{
-        font-size: 20px;
-    }
-
-    .end h1{
         font-size: 25px;
     }
 
+    .end h1{
+        font-size: 30px;
+    }
+
     .end p{
-        font-size: 20px;
+        font-size: 2p5x;
         padding-right: 20px;
     }
 
@@ -665,19 +827,19 @@ hr.vertical {
         padding: 5px;
     }
 
-    @media screen and (max-width:375px){
+    @media screen and (max-width:600px){
         .slide-inside {
             top: 20vh;
-            left: 8vh;
-            gap: 8px;
+            left: 13vh;
+            gap: 10px;
         }
 
         .slide-content h1 {
-            font-size: 17px;
+            font-size: 20px;
         }
     
         .slide-content h4 {
-            font-size: 16px;
+            font-size: 20px;
         }
     
         .slide-content button {
@@ -686,14 +848,24 @@ hr.vertical {
         }
     
         .slide-content i {
-            font-size: 8px;
+            font-size: 12px;
+        }
+
+        .img i{
+            font-size: 30px;
+            top: 30vh;
+            left: 28vh;
+        }
+
+        .contents h1 {
+            font-size: 15px;
         }
     }
 
-    @media screen and (max-width:320px){
+    @media screen and (max-width:400px){
         .slide-inside {
             top: 18vh;
-            left: 5vh;
+            left: 9vh;
             gap: 8px;
         }
 
@@ -712,6 +884,12 @@ hr.vertical {
     
         .slide-content i {
             font-size: 8px;
+        }
+
+        .img i{
+            font-size: 30px;
+            top: 25vh;
+            left: 23vh;
         }
     }
 }
